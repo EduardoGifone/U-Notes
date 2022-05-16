@@ -2,7 +2,7 @@
 
 ***
 
-**<span style="color:#F05">Modelado y Simulacion es una tecnica de resolucion de problemas complejos</span>**
+**Modelado y Simulacion es una tecnica de resolucion de problemas complejos**
 
 **Como identificar un problema de computacion complejo?**
 : *Por la cantidad de variables, cantidad de gaces y etapas*
