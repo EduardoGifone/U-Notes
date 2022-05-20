@@ -4,7 +4,6 @@
 
 ## 16 mayo - Examen entrada
 
-
 ***Modelado y Simulacion es una tecnica de resolucion de problemas complejos***
 
 **Como identificar un problema de computacion complejo?**
@@ -25,6 +24,7 @@
 ***
 
 ## 18 mayo - Introductorio
+
 #### Objetivo general de Modelado y Simulacion
 * Modelar
 * Simular 
@@ -41,6 +41,7 @@
     * Metodo de simulacion
 
 #### Sistema, Modelado y Simulacion
+
 ##### Sistema
 * Conjunto de componentes interrelacionados que tiene un fin en comun
 ##### Modelado
@@ -63,3 +64,39 @@ Representacion de un sistema
 * Basado en reglas
 * No varia, todos estamos de acuerdo
 * Formal
+
+## 20 mayo - Hablamos del Modelo
+
+#### Clasificacion de los sistemas de modelos de simulacion
+
+##### Estaticos - Dinamicos (Observacion)
+* Estatico
+    * Punto particular del tiempo
+* Dinamicos
+    * Evolucionan con el tiempo
+
+##### Deterministicos - Probabilisticos (Reglas)
+* Deterministicos
+    * Basado en reglas - No existen las casualidades
+* Probabilisticos
+    * No hay reglas - Salidas aleatorias
+
+##### Continuos - Discretos (Variables)
+* Continuos
+    * Variables cambian de forma continua en el tiempo
+* Discretos
+    * Variables cambian en un determinado tiempo
+
+#### Caracteristicas del modelo
+* Aspectos esenciales
+* Faciles - entender y representar
+* Simples y economicos
+* Buena aproximacion al sistema real
+* Respuestas validas
+* Parametos del sistema
+* Variables
+    * *Endogenas - dentro - sistema*
+    * ***Exogenas - fuera - sistema***
+* Metodos heuristicos
+    * Conocimiento sobre el tema
+
