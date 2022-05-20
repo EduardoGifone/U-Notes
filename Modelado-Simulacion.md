@@ -65,6 +65,8 @@ Representacion de un sistema
 * No varia, todos estamos de acuerdo
 * Formal
 
+*** 
+
 ## 20 mayo - Hablamos del Modelo
 
 #### Clasificacion de los sistemas de modelos de simulacion
