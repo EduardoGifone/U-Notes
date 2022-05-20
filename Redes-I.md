@@ -83,3 +83,16 @@
 
 * Para hallar el ID de la red se hace una operacion ***and***
     * **IP** *and* **MASCARA** = ***ID***
+
+*** 
+
+## 20 mayo - Usando Packet Tracer
+
+#### Cable de red
+* UTP 
+* Tiene categorias
+* Maximo 90 metros
+* Disposicion de cables
+    * Cruzado para mismo equipos
+    * No cruzado para diferentes equipos
+![Normas](https://image.jimcdn.com/app/cms/image/transf/dimension=259x10000:format=png/path/s8c0b436340bfa088/image/i88812c7dcd75a617/version/1561941775/image.png)
