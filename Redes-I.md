@@ -96,3 +96,11 @@
     * Cruzado para mismo equipos
     * No cruzado para diferentes equipos
 ![Normas](https://image.jimcdn.com/app/cms/image/transf/dimension=259x10000:format=png/path/s8c0b436340bfa088/image/i88812c7dcd75a617/version/1561941775/image.png)
+
+## 24 mayo - Uso de redes
+
+#### Uso de las redes
+* Empresas
+* Hogares
+* Usuarios mobiles
+* Cuestiones sociales
