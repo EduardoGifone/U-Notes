@@ -2,6 +2,8 @@
 
 *** 
 
+## INTRODUCCION
+
 #### Que ciencias hay?
 
 * Facticas
@@ -128,3 +130,147 @@
     * **IA**
     * Analisis de datos
 
+## AGENTES INTELIGENTES
+
+### Conceptos generales
+
+#### Que es un agente?
+
+* Percibe su entorno con sensores
+* Actua mediante efectores
+
+##### Puede ser: 
+
+* Humano
+* Robot
+* Agente de Software
+
+#### Percepcion
+
+* Percepcion
+    * Recibir informacion del entorno
+* Secuencia de percepciones
+    * Historial de datos percibidos en un tiempo
+    * Guardados en una memoria
+* Las acciones dependen de la secuencia de percepciones 
+
+#### Funcion de agente
+
+* Elegir accion dependiendo de la secuenca de percepciones
+
+#### Medidas de rendimiento 
+
+* Perfeccion
+    * Sabe lo que hace y actua de la mejor manera
+    * Maximo rendimiento
+    * En el mundo real es imposible
+* Racionalidad
+    * Supuestamente maximiza el rendimiento
+
+#### Aprendizaje
+
+* Aprender y maximizar su conocimiento (memoria)
+
+* Exploracion
+    * Recoleccion de informacion 
+    * Memorizar cada caso posible
+
+#### Autonomia
+
+* Aprender todo lo que pueda
+* Si no sabe nada, actua de forma aleatoria
+* Dotarlo de:
+    * Conocimiento inicial
+    * Capacidad de explorar
+    * Capacidad de aprender
+
+#### Incerteza
+
+* Limite de sensores
+* Ignorancia
+* Naturaleza estocastica
+
+### El entorno
+
+#### Ambientes utilizados
+
+* Total o parcialmente observables (accesibilidad)
+* Deterministico o estocastico (no determinista)
+* Variables discretas o continuas (influencia de datos)
+* Estaticos, dinamicos o semidinamicos (influencia del tiempo)
+* Episodicos o secuenciales
+* Conocido o desconocido 
+* Agente unico o multiagente
+
+#### Complejidad del entorno 
+
+|Menos complejo|Mas Complejo|
+|-|-|
+|Totalmente observable|Parcialmente observable|
+|Determinista|Estocastico|
+|Episodico|Secuencial|
+|Estatico|Dinamico|
+|Discreto|Continuo|
+|Conocido|Desconocido|
+|Agente Individual |Multiagente|
+
+#### Tipos de agentes
+
+* Reactivos
+    * Simples
+    * En modelos
+* Que planifican
+    * Basados en objetivos
+    * Basados en utilidad
+* Que aprenden
+
+#### Agentes Reactivos
+
+* Estimulo - Respuesta
+* Sin representacion explicita del entorno
+* No le importa el pasado y futuro
+* No considera las consecuencias de sus actos
+
+##### Agentes Reactivos simples
+
+* Seleccionan sus acciones con respecto a las  percepciones actuales
+* Simples pero limitados
+* Desicion correcta solo si la percepcion actual esta en un entorno totalmente observable
+
+##### Agentes basados en modelos
+
+* Almacena los datos observados
+* Estado interno (mundo actual)
+* Modelo del mundo (Como funciona el mundo)
+
+#### Agentes que planifican
+
+* Actuan dependiendo a su entorno
+* Piensan en las consecuencias
+* Realiza simulaciones
+
+##### Agentes basados en objetivos
+
+* Tiene un estado interno y modelo del mundo
+* Escoge la mejor accion para llegar a su objetivo
+
+##### Agentes basados en utilidad
+
+* Si tiene varias opciones, compara estas
+* Escoge la mas util
+* Incertidumbre
+    * Utilidad esperada
+    * Suma ponderada de las utilidades de cada resultado segun la probabilidad de ocurrencia
+
+#### Agentes que aprenden
+
+* Aprenden dependiendo de:
+    * Percepciones
+    * Consecuencias
+* Se compone de 4 elementos: 
+    * Elemento de actuacion
+    * Elemento de aprendizaje
+    * Critica
+    * Generador de problemas
+
+### SOLUCION DE PROBLEMAS MEDIANTE BUSQUEDA
