@@ -274,3 +274,48 @@
     * Generador de problemas
 
 ### SOLUCION DE PROBLEMAS MEDIANTE BUSQUEDA
+
+#### Conceptos previos
+
+##### Ordenes de complejidad
+
+|Orden|Descripcion|
+|-|-|
+|O(1)|constante|
+|O(log n)|logaritmico|
+|O(n)|lineal|
+|O(n log n)|n logaritmo de n|
+|O(n^c)|polinomico|
+|O(c^n)|exponencial|
+|O(n!)|factorial|
+|O(n^n)|combinatorio|
+
+##### NP - Dificiles
+
+* Tamanio exponencial
+* No se espera que nadie lo consiga
+* Todo lo de IA es NP-DIFICILES
+* Si NP - difidil y el algoritmo es rapido, se considera inteligente
+* La I.A implica que la busqueda esta sujeta a errores
+
+##### Que es un problema?
+
+* Es una cuestion que necesita una solucion
+
+#### Agentes resolventes - problemas
+
+* Formular - Buscar - Ejecutar
+
+* Un problema puede definirse formalmente por 4 componentes:
+    * Estado inicial
+    * Espacio de estados
+    * Test objetivo
+    * Coste del camino
+
+#### Ejemplos de problemas
+
+* Dos tipos de problemas
+    * Estandarizado
+        * Fines practicos
+    * Mundo real
+
